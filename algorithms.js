@@ -44,4 +44,33 @@ var logNums = function(num) {
 
 // WEEK 4 || #1 LOG EVEN NUMS //
 
+// Write code to print all even numbers from 0 to `num`
+// Assume `num` will be a positive number
+
+var logEvenNums = function(num) {
+    for (let i = 0; i < num; i++) {
+        if (i % 2 === 0) {
+            console.log(i)
+        } else {
+            console.log('This is not an even number')
+        }
+    }
+};
+
+
+// WEEK 4 || #2 COUNTDOWN
+
+// Write code to print all numbers from `num` down to 1
+// You may assume `num` will be a positive number
+
+var countdown = function(num) {
+    for (let i = num; i >= 1; i--) {
+        console.log(i)
+    }
+};
+
+
+// WEEK 4 || #3 - 
+
+
 
